@@ -1,7 +1,5 @@
 def generate_full_name(firstname, lastname):
-      space = ' '
-      fullname = firstname + space + lastname
-      return fullname
+      return f'{firstname} {lastname}'
 
 def sum_two_nums (num1, num2):
     return num1 + num2
